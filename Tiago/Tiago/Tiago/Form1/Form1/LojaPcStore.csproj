@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4879581B-FF6E-470D-9078-F342024EA76F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Form1</RootNamespace>
+    <AssemblyName>Form1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Componentes\BoardAsusAtx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\BoardAsusAtx.Designer.cs">
+      <DependentUpon>BoardAsusAtx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\CPUintel_i3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\CPUintel_i3.Designer.cs">
+      <DependentUpon>CPUintel_i3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\CPUintel_i5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\CPUintel_i5.Designer.cs">
+      <DependentUpon>CPUintel_i5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\CPUintel_i7.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\CPUintel_i7.Designer.cs">
+      <DependentUpon>CPUintel_i7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\CPUintel_i9.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\CPUintel_i9.Designer.cs">
+      <DependentUpon>CPUintel_i9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\FACorsairAX1000.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\FACorsairAX1000.Designer.cs">
+      <DependentUpon>FACorsairAX1000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\FACorsairRM850x.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\FACorsairRM850x.Designer.cs">
+      <DependentUpon>FACorsairRM850x.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\FACorsairTX550M.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\FACorsairTX550M.Designer.cs">
+      <DependentUpon>FACorsairTX550M.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\GRAmsiArmor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\GRAmsiArmor.Designer.cs">
+      <DependentUpon>GRAmsiArmor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\GRAmsiDuke.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\GRAmsiDuke.Designer.cs">
+      <DependentUpon>GRAmsiDuke.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\GRAmsiGeForce.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\GRAmsiGeForce.Designer.cs">
+      <DependentUpon>GRAmsiGeForce.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\GRAmsiVentus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\GRAmsiVentus.Designer.cs">
+      <DependentUpon>GRAmsiVentus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\userControlGraficas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\userControlGraficas.Designer.cs">
+      <DependentUpon>userControlGraficas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Destaques.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Destaques.Designer.cs">
+      <DependentUpon>Destaques.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entrada.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Entrada.Designer.cs">
+      <DependentUpon>Entrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\FACorsair850x.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\FACorsair850x.Designer.cs">
+      <DependentUpon>FACorsair850x.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info_User.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Info_User.Designer.cs">
+      <DependentUpon>Info_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaginaPrincipal.Designer.cs">
+      <DependentUpon>PaginaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registar.Designer.cs">
+      <DependentUpon>Registar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\userControlProcessadores.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\userControlProcessadores.Designer.cs">
+      <DependentUpon>userControlProcessadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils.cs" />
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Componentes\BoardAsusAtx.resx">
+      <DependentUpon>BoardAsusAtx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\CPUintel_i3.resx">
+      <DependentUpon>CPUintel_i3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\CPUintel_i5.resx">
+      <DependentUpon>CPUintel_i5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\CPUintel_i7.resx">
+      <DependentUpon>CPUintel_i7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\CPUintel_i9.resx">
+      <DependentUpon>CPUintel_i9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\FACorsair850x.resx">
+      <DependentUpon>FACorsair850x.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\FACorsairAX1000.resx">
+      <DependentUpon>FACorsairAX1000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\FACorsairRM850x.resx">
+      <DependentUpon>FACorsairRM850x.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\FACorsairTX550M.resx">
+      <DependentUpon>FACorsairTX550M.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\GRAmsiArmor.resx">
+      <DependentUpon>GRAmsiArmor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\GRAmsiDuke.resx">
+      <DependentUpon>GRAmsiDuke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\GRAmsiGeForce.resx">
+      <DependentUpon>GRAmsiGeForce.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\GRAmsiVentus.resx">
+      <DependentUpon>GRAmsiVentus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\userControlGraficas.resx">
+      <DependentUpon>userControlGraficas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Destaques.resx">
+      <DependentUpon>Destaques.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entrada.resx">
+      <DependentUpon>Entrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info_User.resx">
+      <DependentUpon>Info_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaginaPrincipal.resx">
+      <DependentUpon>PaginaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Registar.resx">
+      <DependentUpon>Registar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\userControlProcessadores.resx">
+      <DependentUpon>userControlProcessadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ecran hp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diminuir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\placa_grafica_msi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\placa_msiArmor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\processador_intel_i5.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

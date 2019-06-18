@@ -1,0 +1,141 @@
+C:\Users\André Santos\source\repos\Form1\Form1\bin\Debug\Form1.exe.config
+C:\Users\André Santos\source\repos\Form1\Form1\bin\Debug\Form1.exe
+C:\Users\André Santos\source\repos\Form1\Form1\bin\Debug\Form1.pdb
+C:\Users\André Santos\source\repos\Form1\Form1\obj\Debug\Form1.csprojAssemblyReference.cache
+C:\Users\André Santos\source\repos\Form1\Form1\obj\Debug\Form1.Form1.resources
+C:\Users\André Santos\source\repos\Form1\Form1\obj\Debug\Form1.Properties.Resources.resources
+C:\Users\André Santos\source\repos\Form1\Form1\obj\Debug\Form1.csproj.GenerateResource.cache
+C:\Users\André Santos\source\repos\Form1\Form1\obj\Debug\Form1.csproj.CoreCompileInputs.cache
+C:\Users\André Santos\source\repos\Form1\Form1\obj\Debug\Form1.exe
+C:\Users\André Santos\source\repos\Form1\Form1\obj\Debug\Form1.pdb
+C:\Users\André Santos\source\repos\Form1\Form1\bin\Debug\MySql.Data.dll
+C:\Users\André Santos\source\repos\Form1\Form1\bin\Debug\Google.Protobuf.dll
+C:\Users\André Santos\source\repos\Form1\Form1\bin\Debug\MySql.Data.xml
+C:\Users\André Santos\source\repos\Form1\Form1\obj\Debug\Form1.csproj.CopyComplete
+C:\Users\Tiago\Desktop\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.exe.config
+C:\Users\Tiago\Desktop\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.exe
+C:\Users\Tiago\Desktop\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.pdb
+C:\Users\Tiago\Desktop\Tiago\Tiago\Form1\Form1\bin\Debug\Google.Protobuf.dll
+C:\Users\Tiago\Desktop\Tiago\Tiago\Form1\Form1\bin\Debug\MySql.Data.xml
+C:\Users\Tiago\Desktop\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csprojAssemblyReference.cache
+C:\Users\Tiago\Desktop\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Registar.resources
+C:\Users\Tiago\Desktop\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Properties.Resources.resources
+C:\Users\Tiago\Desktop\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.GenerateResource.cache
+C:\Users\Tiago\Desktop\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.CoreCompileInputs.cache
+C:\Users\Tiago\Desktop\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.CopyComplete
+C:\Users\Tiago\Desktop\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.exe
+C:\Users\Tiago\Desktop\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.pdb
+C:\Users\Tiago\Desktop\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Welcome.resources
+C:\Users\Tiago\Desktop\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Entrada.resources
+C:\Users\Tiago\Desktop\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.PaginaPrincipal.resources
+C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.exe.config
+C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.exe
+C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.pdb
+C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Google.Protobuf.dll
+C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\MySql.Data.xml
+C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csprojAssemblyReference.cache
+C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Entrada.resources
+C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.PaginaPrincipal.resources
+C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Registar.resources
+C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Properties.Resources.resources
+C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Welcome.resources
+C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.GenerateResource.cache
+C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.CoreCompileInputs.cache
+C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.CopyComplete
+C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.exe
+C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.pdb
+C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.panel_welcome.resources
+C:\Users\Tiago\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csprojAssemblyReference.cache
+C:\Users\Tiago\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.form_entrada.resources
+C:\Users\Tiago\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.PaginaPrincipal.resources
+C:\Users\Tiago\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Properties.Resources.resources
+C:\Users\Tiago\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Welcome.resources
+C:\Users\Tiago\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.GenerateResource.cache
+C:\Users\Tiago\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.CoreCompileInputs.cache
+C:\Users\Tiago\Desktop\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.exe.config
+C:\Users\Tiago\Desktop\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.exe
+C:\Users\Tiago\Desktop\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.pdb
+C:\Users\Tiago\Desktop\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Tiago\Desktop\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Tiago\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.CopyComplete
+C:\Users\Tiago\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.exe
+C:\Users\Tiago\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.pdb
+C:\Users\Tiago\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.userControl_begin.resources
+C:\Users\Tiago\Desktop\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.registar_form.resources
+F:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csprojAssemblyReference.cache
+F:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.form_entrada.resources
+F:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.PaginaPrincipal.resources
+F:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Properties.Resources.resources
+F:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Welcome.resources
+F:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.GenerateResource.cache
+F:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.CoreCompileInputs.cache
+F:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.exe
+F:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.pdb
+F:\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.exe.config
+F:\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.exe
+F:\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.pdb
+F:\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+F:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.usercontrol_Registar.resources
+F:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.CopyComplete
+E:\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.exe.config
+E:\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.exe
+E:\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.pdb
+E:\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+E:\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+E:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csprojAssemblyReference.cache
+E:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.form_entrada.resources
+E:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.PaginaPrincipal.resources
+E:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.usercontrol_Registar.resources
+E:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Properties.Resources.resources
+E:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Welcome.resources
+E:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.GenerateResource.cache
+E:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.CoreCompileInputs.cache
+E:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.CopyComplete
+E:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.exe
+E:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.pdb
+F:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Info_User.resources
+E:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Info_User.resources
+E:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.paginaProduto.resources
+F:\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+F:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.graficaGeForce.resources
+F:\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.graficaMsi.resources
+C:\Users\Tiago\Desktop\Nova pasta\Cenas fodidas\Recovered data 06-13 20_06_05\2  (G) FAT32\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csprojAssemblyReference.cache
+C:\Users\Tiago\Desktop\Nova pasta\Cenas fodidas\Recovered data 06-13 20_06_05\2  (G) FAT32\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.form_entrada.resources
+C:\Users\Tiago\Desktop\Nova pasta\Cenas fodidas\Recovered data 06-13 20_06_05\2  (G) FAT32\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.graficaGeForce.resources
+C:\Users\Tiago\Desktop\Nova pasta\Cenas fodidas\Recovered data 06-13 20_06_05\2  (G) FAT32\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Info_User.resources
+C:\Users\Tiago\Desktop\Nova pasta\Cenas fodidas\Recovered data 06-13 20_06_05\2  (G) FAT32\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.PaginaPrincipal.resources
+C:\Users\Tiago\Desktop\Nova pasta\Cenas fodidas\Recovered data 06-13 20_06_05\2  (G) FAT32\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.graficaMsi.resources
+C:\Users\Tiago\Desktop\Nova pasta\Cenas fodidas\Recovered data 06-13 20_06_05\2  (G) FAT32\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Registar.resources
+C:\Users\Tiago\Desktop\Nova pasta\Cenas fodidas\Recovered data 06-13 20_06_05\2  (G) FAT32\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Properties.Resources.resources
+C:\Users\Tiago\Desktop\Nova pasta\Cenas fodidas\Recovered data 06-13 20_06_05\2  (G) FAT32\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Welcome.resources
+C:\Users\Tiago\Desktop\Nova pasta\Cenas fodidas\Recovered data 06-13 20_06_05\2  (G) FAT32\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.GenerateResource.cache
+C:\Users\Tiago\Desktop\Nova pasta\Cenas fodidas\Recovered data 06-13 20_06_05\2  (G) FAT32\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.CoreCompileInputs.cache
+C:\Users\Tiago\Desktop\Nova pasta\Cenas fodidas\Recovered data 06-13 20_06_05\2  (G) FAT32\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.exe
+C:\Users\Tiago\Desktop\Nova pasta\Cenas fodidas\Recovered data 06-13 20_06_05\2  (G) FAT32\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.pdb
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.exe.config
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.exe
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.pdb
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csprojAssemblyReference.cache
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.form_entrada.resources
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.graficaGeForce.resources
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Info_User.resources
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.PaginaPrincipal.resources
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Properties.Resources.resources
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Registar.resources
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Welcome.resources
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.GenerateResource.cache
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.CoreCompileInputs.cache
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.csproj.CopyComplete
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.exe
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.pdb
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.FACorsair850x.resources
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.motherboardAsusATX.resources
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.userControlProcessadores.resources
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Componentes.CPUintel_i3.resources
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Componentes.CPUintel_i7.resources
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Componentes.CPUintel_i9.resources
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.GRAmsiArmor.resources
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Componentes.GRAmsiArmor.resources
+D:\Escola Digital\2018-19\C#\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Componentes.GRAmsiGeForce.resources

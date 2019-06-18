@@ -1,0 +1,29 @@
+use projeto2019;
+
+CREATE TABLE IF NOT EXISTS users(
+id MEDIUMINT NOT NULL AUTO_INCREMENT,
+     username varchar(45) NOT NULL,
+     pass varchar(45) NOT NULL,
+     email varchar(45) NOT NULL,
+     sexo varchar(45) NOT NULL,
+     telemovel int(9) NOT NULL,
+     PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS contaBancaria(
+id MEDIUMINT NOT NULL AUTO_INCREMENT,
+	username varchar(45) NOT NULL,
+	valor int(255) NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (username) REFERENCES users(username)
+);
+
+CREATE TABLE IF NOT EXISTS componentesFav(
+	username varchar(45),
+    nomeComponente varchar(70),
+    valor int(255),
+    FOREIGN KEY (valor) REFERENCES contaBancaria(valor),
+    FOREIGN KEY (username) REFERENCES users(username)
+);
+
+select * from componentesFav;
