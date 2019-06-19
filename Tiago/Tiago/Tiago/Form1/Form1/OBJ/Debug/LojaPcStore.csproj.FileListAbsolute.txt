@@ -64,3 +64,37 @@ C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.pd
 C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.CPUintel_i3.resources
 C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.CPUintel_i9.resources
 C:\Users\PSI17F19\Desktop\Tiago\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.FACorsairAX1000.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\LojaPcStore.csprojAssemblyReference.cache
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.BoardAsusAtx.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.CPUintel_i3.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.CPUintel_i5.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.CPUintel_i7.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.CPUintel_i9.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.FACorsair850x.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.FACorsairAX1000.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.FACorsairRM850x.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.FACorsairTX550M.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.GRAmsiArmor.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.GRAmsiDuke.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.GRAmsiGeForce.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.GRAmsiVentus.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.userControlGraficas.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Destaques.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.form_entrada.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Info_User.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.PaginaPrincipal.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Properties.Resources.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Registar.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.userControlProcessadores.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.Welcome.resources
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\LojaPcStore.csproj.GenerateResource.cache
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\LojaPcStore.csproj.CoreCompileInputs.cache
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.exe
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.pdb
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.exe.config
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.exe
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Form1.pdb
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\LojaPcStore.csproj.CopyComplete
+D:\Escola Digital\GitHub\RepositorioProjeto\Tiago\Tiago\Tiago\Form1\Form1\obj\Debug\Form1.userControlFonteA.resources

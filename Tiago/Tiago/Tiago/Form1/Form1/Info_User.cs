@@ -27,5 +27,40 @@ namespace Form1
         {
             InitializeComponent();
         }
+
+        private void pic_back_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            Destaques.Instance.pnl_receive.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(lbl_user.Text == "Username")
+            {
+                lbl_user.Text = ""+form_entrada.Instance.userinfo;
+            }
+
+            if (lbl_pass.Text == "Pass")
+            {
+                lbl_pass.Text = "" + form_entrada.Instance.passinfo;
+            }
+
+            if (lbl_email.Text == "Email")
+            {
+                lbl_email.Text = "" + form_entrada.Instance.emailinfo;
+            }
+
+            if (lbl_telemovel.Text == "Telemóvel")
+            {
+                lbl_telemovel.Text = "" + form_entrada.Instance.telemovelinfo;
+            }
+
+            if (lbl_sexo.Text == "Sexo")
+            {
+                lbl_sexo.Text = "" + form_entrada.Instance.sexoinfo;
+            }
+        }
     }
 }

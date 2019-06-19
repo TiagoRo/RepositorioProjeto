@@ -31,7 +31,8 @@ namespace Form1
 
         private void pic_back_Click(object sender, EventArgs e)
         {
-                Destaques.Instance.pnl_receive.Show();
+            this.Hide();
+            Destaques.Instance.pnl_receive.Show();
         }
 
         private void btn_Comprar_Click(object sender, EventArgs e)

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registar));
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_registar = new System.Windows.Forms.Button();
@@ -39,10 +40,12 @@
             this.radioBtn_Masculino = new System.Windows.Forms.RadioButton();
             this.radioBtn_Femenino = new System.Windows.Forms.RadioButton();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape4 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape3 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.tl_username = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.pic_back = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_back)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -185,14 +188,6 @@
             this.shapeContainer1.TabIndex = 0;
             this.shapeContainer1.TabStop = false;
             // 
-            // lineShape1
-            // 
-            this.lineShape1.Name = "lineShape1";
-            this.lineShape1.X1 = 288;
-            this.lineShape1.X2 = 609;
-            this.lineShape1.Y1 = 320;
-            this.lineShape1.Y2 = 320;
-            // 
             // lineShape4
             // 
             this.lineShape4.Name = "lineShape4";
@@ -217,10 +212,30 @@
             this.tl_username.Y1 = 358;
             this.tl_username.Y2 = 358;
             // 
+            // lineShape1
+            // 
+            this.lineShape1.Name = "lineShape1";
+            this.lineShape1.X1 = 288;
+            this.lineShape1.X2 = 609;
+            this.lineShape1.Y1 = 320;
+            this.lineShape1.Y2 = 320;
+            // 
+            // pic_back
+            // 
+            this.pic_back.Image = ((System.Drawing.Image)(resources.GetObject("pic_back.Image")));
+            this.pic_back.Location = new System.Drawing.Point(23, 35);
+            this.pic_back.Name = "pic_back";
+            this.pic_back.Size = new System.Drawing.Size(35, 35);
+            this.pic_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_back.TabIndex = 133;
+            this.pic_back.TabStop = false;
+            this.pic_back.Click += new System.EventHandler(this.pic_back_Click);
+            // 
             // Registar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.pic_back);
             this.Controls.Add(this.radioBtn_Femenino);
             this.Controls.Add(this.radioBtn_Masculino);
             this.Controls.Add(this.txtBox_username);
@@ -234,6 +249,7 @@
             this.Controls.Add(this.txtBox_telemovel);
             this.Name = "Registar";
             this.Size = new System.Drawing.Size(950, 630);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -255,5 +271,6 @@
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape3;
         private Microsoft.VisualBasic.PowerPacks.LineShape tl_username;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
+        private System.Windows.Forms.PictureBox pic_back;
     }
 }

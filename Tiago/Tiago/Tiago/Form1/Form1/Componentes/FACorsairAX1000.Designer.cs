@@ -125,6 +125,7 @@
             this.pic_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic_back.TabIndex = 161;
             this.pic_back.TabStop = false;
+            this.pic_back.Click += new System.EventHandler(this.pic_back_Click);
             // 
             // pictureBox3
             // 

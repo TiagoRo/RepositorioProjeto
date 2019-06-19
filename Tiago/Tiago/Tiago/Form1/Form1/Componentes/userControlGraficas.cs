@@ -33,7 +33,6 @@ namespace Form1
         {
             if (!this.Controls.Contains(GRAmsiArmor.Instance))
             {
-                this.pnl_receive.Hide();
 
                 this.Controls.Add(GRAmsiArmor.Instance);
                 GRAmsiArmor.Instance.Dock = DockStyle.Fill;
@@ -52,7 +51,6 @@ namespace Form1
         {
             if (!this.Controls.Contains(GRAmsiGeForce.Instance))
             {
-                this.pnl_receive.Hide();
 
                 this.Controls.Add(GRAmsiGeForce.Instance);
                 GRAmsiGeForce.Instance.Dock = DockStyle.Fill;
@@ -71,7 +69,6 @@ namespace Form1
         {
             if (!this.Controls.Contains(GRAmsiVentus.Instance))
             {
-                this.pnl_receive.Hide();
 
                 this.Controls.Add(GRAmsiVentus.Instance);
                 GRAmsiVentus.Instance.Dock = DockStyle.Fill;
@@ -90,7 +87,6 @@ namespace Form1
         {
             if (!this.Controls.Contains(GRAmsiDuke.Instance))
             {
-                this.pnl_receive.Hide();
 
                 this.Controls.Add(GRAmsiDuke.Instance);
                 GRAmsiDuke.Instance.Dock = DockStyle.Fill;

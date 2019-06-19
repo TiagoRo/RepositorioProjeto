@@ -85,11 +85,11 @@
     <Compile Include="Componentes\FACorsairAX1000.Designer.cs">
       <DependentUpon>FACorsairAX1000.cs</DependentUpon>
     </Compile>
-    <Compile Include="Componentes\FACorsairRM850x.cs">
+    <Compile Include="Componentes\FACorsairRMw.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Componentes\FACorsairRM850x.Designer.cs">
-      <DependentUpon>FACorsairRM850x.cs</DependentUpon>
+    <Compile Include="Componentes\FACorsairRMw.Designer.cs">
+      <DependentUpon>FACorsairRMw.cs</DependentUpon>
     </Compile>
     <Compile Include="Componentes\FACorsairTX550M.cs">
       <SubType>UserControl</SubType>
@@ -139,11 +139,11 @@
     <Compile Include="Entrada.Designer.cs">
       <DependentUpon>Entrada.cs</DependentUpon>
     </Compile>
-    <Compile Include="Componentes\FACorsair850x.cs">
+    <Compile Include="Componentes\FACorsairRMb.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Componentes\FACorsair850x.Designer.cs">
-      <DependentUpon>FACorsair850x.cs</DependentUpon>
+    <Compile Include="Componentes\FACorsairRMb.Designer.cs">
+      <DependentUpon>FACorsairRMb.cs</DependentUpon>
     </Compile>
     <Compile Include="Info_User.cs">
       <SubType>UserControl</SubType>
@@ -171,6 +171,12 @@
     <Compile Include="Componentes\userControlProcessadores.Designer.cs">
       <DependentUpon>userControlProcessadores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Componentes\userControlFonteA.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\userControlFonteA.Designer.cs">
+      <DependentUpon>userControlFonteA.cs</DependentUpon>
+    </Compile>
     <Compile Include="Utils.cs" />
     <Compile Include="Welcome.cs">
       <SubType>Form</SubType>
@@ -193,14 +199,14 @@
     <EmbeddedResource Include="Componentes\CPUintel_i9.resx">
       <DependentUpon>CPUintel_i9.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Componentes\FACorsair850x.resx">
-      <DependentUpon>FACorsair850x.cs</DependentUpon>
+    <EmbeddedResource Include="Componentes\FACorsairRMb.resx">
+      <DependentUpon>FACorsairRMb.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Componentes\FACorsairAX1000.resx">
       <DependentUpon>FACorsairAX1000.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Componentes\FACorsairRM850x.resx">
-      <DependentUpon>FACorsairRM850x.cs</DependentUpon>
+    <EmbeddedResource Include="Componentes\FACorsairRMw.resx">
+      <DependentUpon>FACorsairRMw.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Componentes\FACorsairTX550M.resx">
       <DependentUpon>FACorsairTX550M.cs</DependentUpon>
@@ -247,6 +253,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Componentes\userControlProcessadores.resx">
       <DependentUpon>userControlProcessadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\userControlFonteA.resx">
+      <DependentUpon>userControlFonteA.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Welcome.resx">
       <DependentUpon>Welcome.cs</DependentUpon>

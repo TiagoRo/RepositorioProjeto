@@ -271,7 +271,6 @@
             this.lbl_comecar.Size = new System.Drawing.Size(521, 33);
             this.lbl_comecar.TabIndex = 18;
             this.lbl_comecar.Text = "Bem vindo/a á sua loja de Informática";
-            this.lbl_comecar.Click += new System.EventHandler(this.lbl_comecar_Click);
             // 
             // btn_Comecar
             // 

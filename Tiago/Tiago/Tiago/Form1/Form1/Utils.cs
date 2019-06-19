@@ -11,7 +11,7 @@ namespace Form1
     static class Utils
     {
 
-        internal static string _connectionString = "Server=localhost;Database=tiago;Uid=root;Pwd=;SslMode=none";
+        internal static string _connectionString = "Server=localhost;Database=projeto2019;Uid=root;Pwd=Tr_2017&;SslMode=none";
         internal static MySqlConnection db = new MySqlConnection(_connectionString);
 
         //codigo para confirmar na base de dados a existencia de outro utilizador com o mesmo username
@@ -33,13 +33,16 @@ namespace Form1
                     primeiraLeitura.Close();
 
                     MySqlDataReader segundaLeitura;
-
+                    
                     Console.WriteLine("Existe user!");
 
                     // Agora vamos analisar a password
                     inserirDados.CommandText = "select 1 from users where username=@u and pass=@p";
                     inserirDados.Parameters.Add("@u", MySqlDbType.String).Value = Convert.ToString(user);
                     inserirDados.Parameters.Add("@p", MySqlDbType.String).Value = Convert.ToString(pass);
+
+                    Console.WriteLine("user :" + user);
+                    Console.WriteLine("PASS :" + pass);
 
                     segundaLeitura = inserirDados.ExecuteReader();
 
@@ -68,6 +71,46 @@ namespace Form1
             // Nao existe user. Retorna false
             Console.WriteLine("Não existe user.");
             return false;
+        }
+
+        //codigo para buscar informacao do utilizador
+        internal static int readInfoUser( string pass, string email, string sexo, int telemovel)
+        {
+            MySqlCommand inserirDados = new MySqlCommand();
+            inserirDados.Connection = db;
+
+            try
+            {
+                db.Open();
+
+                inserirDados.CommandText = "select username from users where username=@nome";
+                inserirDados.Parameters.Add("@nome", MySqlDbType.String).Value = form_entrada.Instance.userInserido;
+
+                inserirDados.CommandText = "select pass from users where username=@nome";
+                inserirDados.Parameters.Add("@nome", MySqlDbType.String).Value = pass;
+
+                inserirDados.CommandText = "select email from users where username=@nome";
+                inserirDados.Parameters.Add("@nome", MySqlDbType.String).Value = email;
+
+                inserirDados.CommandText = "select sexo from users where username=@nome";
+                inserirDados.Parameters.Add("@nome", MySqlDbType.String).Value = sexo;
+
+                inserirDados.CommandText = "select telemovel from users where username=@nome";
+                inserirDados.Parameters.Add("@nome", MySqlDbType.Int32).Value = telemovel;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"\nErro: {ex.Message}");
+            }
+            finally
+            {
+                if (db.State == System.Data.ConnectionState.Open)
+                {
+                    db.Close();
+                    Console.WriteLine("Ligação à BD fechada registo.");
+                }
+            }
+            return -1;
         }
 
         //vai buscar o id do componente a base de dados
@@ -153,12 +196,12 @@ namespace Form1
             return false;
         }
 
-        internal void infoOk(string cabeçalho, string msg)
+        /*internal void infoOk(string cabeçalho, string msg)
         {
             string mensagem = msg;
             string caption = cabeçalho;
             MessageBoxButtons botao = MessageBoxButtons.OK;
             MessageBox.Show(mensagem, caption, botao);
-        }
+        }*/
     }
 }

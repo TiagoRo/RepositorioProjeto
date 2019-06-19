@@ -38,8 +38,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pic_back = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_back)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_Comprar
@@ -97,7 +99,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(36, 22);
+            this.label3.Location = new System.Drawing.Point(36, 62);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(842, 24);
             this.label3.TabIndex = 125;
@@ -134,10 +136,22 @@
             this.pictureBox1.TabIndex = 123;
             this.pictureBox1.TabStop = false;
             // 
+            // pic_back
+            // 
+            this.pic_back.Image = ((System.Drawing.Image)(resources.GetObject("pic_back.Image")));
+            this.pic_back.Location = new System.Drawing.Point(40, 24);
+            this.pic_back.Name = "pic_back";
+            this.pic_back.Size = new System.Drawing.Size(35, 35);
+            this.pic_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_back.TabIndex = 132;
+            this.pic_back.TabStop = false;
+            this.pic_back.Click += new System.EventHandler(this.pic_back_Click);
+            // 
             // CPUintel_i3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.pic_back);
             this.Controls.Add(this.btn_Comprar);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.pictureBox3);
@@ -151,6 +165,7 @@
             this.Size = new System.Drawing.Size(948, 630);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -167,5 +182,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pic_back;
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form_entrada));
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.userTextBox = new System.Windows.Forms.TextBox();
@@ -36,6 +37,8 @@
             this.tl_username = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.pic_back = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_back)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -126,10 +129,22 @@
             this.lineShape1.Y1 = 405;
             this.lineShape1.Y2 = 405;
             // 
+            // pic_back
+            // 
+            this.pic_back.Image = ((System.Drawing.Image)(resources.GetObject("pic_back.Image")));
+            this.pic_back.Location = new System.Drawing.Point(22, 31);
+            this.pic_back.Name = "pic_back";
+            this.pic_back.Size = new System.Drawing.Size(35, 35);
+            this.pic_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_back.TabIndex = 75;
+            this.pic_back.TabStop = false;
+            this.pic_back.Click += new System.EventHandler(this.pic_back_Click);
+            // 
             // form_entrada
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.pic_back);
             this.Controls.Add(this.Entrar);
             this.Controls.Add(this.passTextBox);
             this.Controls.Add(this.userTextBox);
@@ -138,6 +153,7 @@
             this.Controls.Add(this.shapeContainer1);
             this.Name = "form_entrada";
             this.Size = new System.Drawing.Size(950, 630);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -153,5 +169,6 @@
         private Microsoft.VisualBasic.PowerPacks.LineShape tl_username;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
+        private System.Windows.Forms.PictureBox pic_back;
     }
 }

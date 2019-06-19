@@ -202,5 +202,12 @@ namespace Form1
                 txtBox_telemovel.Text = "Nº Telemovel";
             }
         }
+
+        private void pic_back_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            Destaques.Instance.pnl_receive.Show();
+        }
     }
 }

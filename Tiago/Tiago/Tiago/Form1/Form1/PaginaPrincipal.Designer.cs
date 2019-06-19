@@ -30,12 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PaginaPrincipal));
-            this.btn_imagem = new System.Windows.Forms.Button();
             this.panelDropDown = new System.Windows.Forms.Panel();
             this.btn_Graficas = new System.Windows.Forms.Button();
             this.btn_processadores = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.btn_componentes = new System.Windows.Forms.Button();
+            this.btn_FonteAl = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -50,6 +49,7 @@
             this.lbl_CPU_i7 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.lbl_BoardAsus = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -64,13 +64,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.panel_drop_imagens = new System.Windows.Forms.Panel();
-            this.btn_cameras = new System.Windows.Forms.Button();
-            this.btn_monitores = new System.Windows.Forms.Button();
             this.pnl_menu = new System.Windows.Forms.Panel();
             this.btn_Ver_Conta = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.lbl_BoardAsus = new System.Windows.Forms.Label();
             this.panelDropDown.SuspendLayout();
             this.panel2.SuspendLayout();
             this.up_panel.SuspendLayout();
@@ -85,37 +81,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel_drop_imagens.SuspendLayout();
             this.pnl_menu.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btn_imagem
-            // 
-            this.btn_imagem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(53)))), ((int)(((byte)(61)))));
-            this.btn_imagem.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(53)))), ((int)(((byte)(61)))));
-            this.btn_imagem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_imagem.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_imagem.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_imagem.Location = new System.Drawing.Point(0, 0);
-            this.btn_imagem.Name = "btn_imagem";
-            this.btn_imagem.Size = new System.Drawing.Size(251, 42);
-            this.btn_imagem.TabIndex = 80;
-            this.btn_imagem.Text = "Imagem";
-            this.btn_imagem.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btn_imagem.UseVisualStyleBackColor = false;
-            this.btn_imagem.MouseHover += new System.EventHandler(this.btn_imagem_MouseHover);
             // 
             // panelDropDown
             // 
             this.panelDropDown.Controls.Add(this.btn_Graficas);
             this.panelDropDown.Controls.Add(this.btn_processadores);
-            this.panelDropDown.Controls.Add(this.button2);
             this.panelDropDown.Controls.Add(this.btn_componentes);
+            this.panelDropDown.Controls.Add(this.btn_FonteAl);
             this.panelDropDown.Location = new System.Drawing.Point(3, 73);
-            this.panelDropDown.MaximumSize = new System.Drawing.Size(502, 77);
-            this.panelDropDown.MinimumSize = new System.Drawing.Size(248, 77);
+            this.panelDropDown.MaximumSize = new System.Drawing.Size(502, 87);
+            this.panelDropDown.MinimumSize = new System.Drawing.Size(246, 87);
             this.panelDropDown.Name = "panelDropDown";
-            this.panelDropDown.Size = new System.Drawing.Size(248, 77);
+            this.panelDropDown.Size = new System.Drawing.Size(246, 87);
             this.panelDropDown.TabIndex = 6;
             this.panelDropDown.MouseLeave += new System.EventHandler(this.panelDropDown_MouseLeave);
             // 
@@ -124,7 +103,7 @@
             this.btn_Graficas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(63)))), ((int)(((byte)(73)))));
             this.btn_Graficas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Graficas.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Graficas.Location = new System.Drawing.Point(248, 49);
+            this.btn_Graficas.Location = new System.Drawing.Point(250, 30);
             this.btn_Graficas.Name = "btn_Graficas";
             this.btn_Graficas.Size = new System.Drawing.Size(252, 28);
             this.btn_Graficas.TabIndex = 5;
@@ -137,25 +116,13 @@
             this.btn_processadores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(63)))), ((int)(((byte)(73)))));
             this.btn_processadores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_processadores.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_processadores.Location = new System.Drawing.Point(248, 0);
+            this.btn_processadores.Location = new System.Drawing.Point(250, 3);
             this.btn_processadores.Name = "btn_processadores";
             this.btn_processadores.Size = new System.Drawing.Size(252, 28);
             this.btn_processadores.TabIndex = 4;
             this.btn_processadores.Text = "Processadores";
             this.btn_processadores.UseVisualStyleBackColor = false;
             this.btn_processadores.Click += new System.EventHandler(this.btn_processadores_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(63)))), ((int)(((byte)(73)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(248, 25);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(252, 28);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Motherboards";
-            this.button2.UseVisualStyleBackColor = false;
             // 
             // btn_componentes
             // 
@@ -173,6 +140,19 @@
             this.btn_componentes.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btn_componentes.UseVisualStyleBackColor = false;
             this.btn_componentes.MouseHover += new System.EventHandler(this.btn_componentes_MouseHover);
+            // 
+            // btn_FonteAl
+            // 
+            this.btn_FonteAl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(63)))), ((int)(((byte)(73)))));
+            this.btn_FonteAl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_FonteAl.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_FonteAl.Location = new System.Drawing.Point(250, 56);
+            this.btn_FonteAl.Name = "btn_FonteAl";
+            this.btn_FonteAl.Size = new System.Drawing.Size(252, 28);
+            this.btn_FonteAl.TabIndex = 3;
+            this.btn_FonteAl.Text = "Fonte de Alimentação";
+            this.btn_FonteAl.UseVisualStyleBackColor = false;
+            this.btn_FonteAl.Click += new System.EventHandler(this.btn_FonteAl_Click);
             // 
             // panel2
             // 
@@ -216,6 +196,7 @@
             this.btn_menu_slide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btn_menu_slide.TabIndex = 76;
             this.btn_menu_slide.TabStop = false;
+            this.btn_menu_slide.Click += new System.EventHandler(this.btn_menu_slide_Click);
             // 
             // btn_exitt
             // 
@@ -321,6 +302,19 @@
             this.label10.Size = new System.Drawing.Size(112, 31);
             this.label10.TabIndex = 117;
             this.label10.Text = "389,00€";
+            // 
+            // lbl_BoardAsus
+            // 
+            this.lbl_BoardAsus.BackColor = System.Drawing.SystemColors.Control;
+            this.lbl_BoardAsus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbl_BoardAsus.ForeColor = System.Drawing.Color.Black;
+            this.lbl_BoardAsus.Location = new System.Drawing.Point(350, 551);
+            this.lbl_BoardAsus.Name = "lbl_BoardAsus";
+            this.lbl_BoardAsus.Size = new System.Drawing.Size(253, 26);
+            this.lbl_BoardAsus.TabIndex = 116;
+            this.lbl_BoardAsus.Text = "Motherboard Extended-ATX Asus ROG Maximus XI Apex Z390 + Oferta Rato ROG & Mousep" +
+    "ad ROG\r\n";
+            this.lbl_BoardAsus.Click += new System.EventHandler(this.Lbl_BoardAsus_Click);
             // 
             // pictureBox6
             // 
@@ -475,49 +469,11 @@
             this.label2.TabIndex = 90;
             this.label2.Text = "DESTAQUES";
             // 
-            // panel_drop_imagens
-            // 
-            this.panel_drop_imagens.Controls.Add(this.btn_imagem);
-            this.panel_drop_imagens.Controls.Add(this.btn_cameras);
-            this.panel_drop_imagens.Controls.Add(this.btn_monitores);
-            this.panel_drop_imagens.Location = new System.Drawing.Point(1, 193);
-            this.panel_drop_imagens.MaximumSize = new System.Drawing.Size(504, 93);
-            this.panel_drop_imagens.MinimumSize = new System.Drawing.Size(244, 93);
-            this.panel_drop_imagens.Name = "panel_drop_imagens";
-            this.panel_drop_imagens.Size = new System.Drawing.Size(248, 93);
-            this.panel_drop_imagens.TabIndex = 81;
-            this.panel_drop_imagens.MouseLeave += new System.EventHandler(this.panel_drop_imagens_MouseLeave);
-            // 
-            // btn_cameras
-            // 
-            this.btn_cameras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(63)))), ((int)(((byte)(73)))));
-            this.btn_cameras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cameras.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_cameras.Location = new System.Drawing.Point(252, 27);
-            this.btn_cameras.Name = "btn_cameras";
-            this.btn_cameras.Size = new System.Drawing.Size(252, 28);
-            this.btn_cameras.TabIndex = 82;
-            this.btn_cameras.Text = "Cameras";
-            this.btn_cameras.UseVisualStyleBackColor = false;
-            // 
-            // btn_monitores
-            // 
-            this.btn_monitores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(63)))), ((int)(((byte)(73)))));
-            this.btn_monitores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_monitores.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_monitores.Location = new System.Drawing.Point(252, 3);
-            this.btn_monitores.Name = "btn_monitores";
-            this.btn_monitores.Size = new System.Drawing.Size(252, 28);
-            this.btn_monitores.TabIndex = 81;
-            this.btn_monitores.Text = "Monitores";
-            this.btn_monitores.UseVisualStyleBackColor = false;
-            // 
             // pnl_menu
             // 
             this.pnl_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(53)))), ((int)(((byte)(61)))));
             this.pnl_menu.Controls.Add(this.btn_Ver_Conta);
             this.pnl_menu.Controls.Add(this.panelDropDown);
-            this.pnl_menu.Controls.Add(this.panel_drop_imagens);
             this.pnl_menu.Controls.Add(this.label3);
             this.pnl_menu.Location = new System.Drawing.Point(0, 0);
             this.pnl_menu.MaximumSize = new System.Drawing.Size(507, 701);
@@ -554,19 +510,6 @@
             this.label3.Text = "PCStore";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lbl_BoardAsus
-            // 
-            this.lbl_BoardAsus.BackColor = System.Drawing.SystemColors.Control;
-            this.lbl_BoardAsus.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lbl_BoardAsus.ForeColor = System.Drawing.Color.Black;
-            this.lbl_BoardAsus.Location = new System.Drawing.Point(350, 551);
-            this.lbl_BoardAsus.Name = "lbl_BoardAsus";
-            this.lbl_BoardAsus.Size = new System.Drawing.Size(253, 26);
-            this.lbl_BoardAsus.TabIndex = 116;
-            this.lbl_BoardAsus.Text = "Motherboard Extended-ATX Asus ROG Maximus XI Apex Z390 + Oferta Rato ROG & Mousep" +
-    "ad ROG\r\n";
-            this.lbl_BoardAsus.Click += new System.EventHandler(this.Lbl_BoardAsus_Click);
-            // 
             // PaginaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -595,7 +538,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel_drop_imagens.ResumeLayout(false);
             this.pnl_menu.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -605,7 +547,7 @@
         private System.Windows.Forms.Panel panelDropDown;
         private System.Windows.Forms.Button btn_Graficas;
         private System.Windows.Forms.Button btn_processadores;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_FonteAl;
         private System.Windows.Forms.Button btn_componentes;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
@@ -613,15 +555,11 @@
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Panel up_panel;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button btn_imagem;
         private System.Windows.Forms.Panel pnl_receive_home;
         private System.Windows.Forms.Panel pnl_menu;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox btn_exit;
         private System.Windows.Forms.PictureBox btn_minimize;
-        private System.Windows.Forms.Panel panel_drop_imagens;
-        private System.Windows.Forms.Button btn_cameras;
-        private System.Windows.Forms.Button btn_monitores;
         private System.Windows.Forms.PictureBox btn_exitt;
         private System.Windows.Forms.Button btn_Ver_Conta;
         private System.Windows.Forms.Label label2;

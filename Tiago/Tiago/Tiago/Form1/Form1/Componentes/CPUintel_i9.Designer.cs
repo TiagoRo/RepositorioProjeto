@@ -38,14 +38,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pic_back = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_back)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_Comprar
             // 
             this.btn_Comprar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Comprar.Location = new System.Drawing.Point(414, 377);
+            this.btn_Comprar.Location = new System.Drawing.Point(413, 399);
             this.btn_Comprar.Name = "btn_Comprar";
             this.btn_Comprar.Size = new System.Drawing.Size(157, 41);
             this.btn_Comprar.TabIndex = 122;
@@ -58,7 +60,7 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(53)))), ((int)(((byte)(61)))));
-            this.label16.Location = new System.Drawing.Point(410, 142);
+            this.label16.Location = new System.Drawing.Point(409, 164);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(209, 24);
             this.label16.TabIndex = 121;
@@ -67,7 +69,7 @@
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(289, 458);
+            this.label6.Location = new System.Drawing.Point(288, 480);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(250, 150);
             this.label6.TabIndex = 119;
@@ -77,7 +79,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(37, 437);
+            this.label5.Location = new System.Drawing.Point(36, 459);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(246, 23);
             this.label5.TabIndex = 118;
@@ -86,7 +88,7 @@
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(38, 467);
+            this.label4.Location = new System.Drawing.Point(37, 489);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(250, 116);
             this.label4.TabIndex = 117;
@@ -97,7 +99,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(37, 22);
+            this.label3.Location = new System.Drawing.Point(36, 44);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(842, 24);
             this.label3.TabIndex = 116;
@@ -108,7 +110,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(53)))), ((int)(((byte)(61)))));
-            this.label1.Location = new System.Drawing.Point(420, 80);
+            this.label1.Location = new System.Drawing.Point(419, 102);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(226, 55);
             this.label1.TabIndex = 115;
@@ -117,7 +119,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(738, 116);
+            this.pictureBox3.Location = new System.Drawing.Point(737, 138);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(176, 99);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -127,17 +129,29 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(41, 65);
+            this.pictureBox1.Location = new System.Drawing.Point(40, 87);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(336, 342);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 114;
             this.pictureBox1.TabStop = false;
             // 
+            // pic_back
+            // 
+            this.pic_back.Image = ((System.Drawing.Image)(resources.GetObject("pic_back.Image")));
+            this.pic_back.Location = new System.Drawing.Point(40, 6);
+            this.pic_back.Name = "pic_back";
+            this.pic_back.Size = new System.Drawing.Size(35, 35);
+            this.pic_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_back.TabIndex = 123;
+            this.pic_back.TabStop = false;
+            this.pic_back.Click += new System.EventHandler(this.pic_back_Click);
+            // 
             // CPUintel_i9
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.pic_back);
             this.Controls.Add(this.btn_Comprar);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.pictureBox3);
@@ -151,6 +165,7 @@
             this.Size = new System.Drawing.Size(950, 630);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -167,5 +182,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pic_back;
     }
 }

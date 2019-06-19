@@ -126,10 +126,5 @@ namespace Form1
                 Console.WriteLine("Form reaberto");
             }
         }
-
-        private void lbl_comecar_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

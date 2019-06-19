@@ -43,17 +43,6 @@ namespace Form1
             pnl_menu.Size = panelDropDown.MinimumSize;
         }
 
-        private void btn_imagem_MouseHover(object sender, EventArgs e)
-        {
-            panel_drop_imagens.Size = panel_drop_imagens.MaximumSize;
-            pnl_menu.Size = panelDropDown.MaximumSize;
-        }
-
-        private void panel_drop_imagens_MouseLeave(object sender, EventArgs e)
-        {
-            panel_drop_imagens.Size = panel_drop_imagens.MinimumSize;
-            pnl_menu.Size = panelDropDown.MinimumSize;
-        }
         //
         private void btn_exitt_Click(object sender, EventArgs e)
         {
@@ -222,6 +211,35 @@ namespace Form1
                 CPUintel_i7.Instance.Show();
                 CPUintel_i7.Instance.BringToFront();
                 Console.WriteLine("Form reaberto");
+            }
+        }
+
+        private void btn_FonteAl_Click(object sender, EventArgs e)
+        {
+            if (!this.pnl_receive_home.Controls.Contains(userControlFonteA.Instance))
+            {
+                this.pnl_receive_home.Controls.Add(userControlFonteA.Instance);
+                userControlFonteA.Instance.Dock = DockStyle.Fill;
+                userControlFonteA.Instance.BringToFront();
+                Console.WriteLine("Novo form aberto");
+            }
+            else
+            {
+                userControlFonteA.Instance.Show();
+                userControlFonteA.Instance.BringToFront();
+                Console.WriteLine("Form reaberto");
+            }
+        }
+
+        private void btn_menu_slide_Click(object sender, EventArgs e)
+        {
+            if (pnl_menu.Width == 250)
+            {
+                pnl_menu.Width = 40;
+            }
+            else
+            {
+                pnl_menu.Width = 250;
             }
         }
     }

@@ -31,8 +31,14 @@ namespace Form1
             InitializeComponent();
         }
 
-        private string userInserido = "";
-        private string passInserida = "";
+        public string userInserido = "";
+        public string passInserida = "";
+
+        public string userinfo;
+        public string passinfo;
+        public string emailinfo;
+        public string sexoinfo;
+        public int telemovelinfo;
 
         private void userTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -69,6 +75,7 @@ namespace Form1
                 }
                 else
                 {
+                    Utils.readInfoUser(Convert.ToString(passinfo), Convert.ToString(emailinfo), Convert.ToString(sexoinfo), Convert.ToInt32(telemovelinfo));
                     this.Hide();
                     PaginaPrincipal Loja = new PaginaPrincipal();
                     Loja.Show();
@@ -135,6 +142,13 @@ namespace Form1
                 passTextBox.ForeColor = Color.Black;
                 passTextBox.UseSystemPasswordChar = false;
             }
+        }
+
+        private void pic_back_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            Destaques.Instance.pnl_receive.Show();
         }
     }
 }
